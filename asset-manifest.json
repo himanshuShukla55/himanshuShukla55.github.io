@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/himanshuShukla55.github.io/static/js/main.fe076f08.js",
-    "index.html": "/himanshuShukla55.github.io/index.html",
-    "main.fe076f08.js.map": "/himanshuShukla55.github.io/static/js/main.fe076f08.js.map"
+    "main.js": "/static/js/main.fe076f08.js",
+    "index.html": "/index.html",
+    "main.fe076f08.js.map": "/static/js/main.fe076f08.js.map"
   },
   "entrypoints": [
     "static/js/main.fe076f08.js"
