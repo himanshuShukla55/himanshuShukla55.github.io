@@ -1,6 +1,5 @@
 @import "../../variables";
 
-/* The typing effect */
 @keyframes typing {
   from {
     width: 0;
@@ -10,7 +9,6 @@
   }
 }
 
-/* The typewriter cursor effect */
 @keyframes blink-caret {
   from,
   to {
@@ -25,10 +23,9 @@
   margin: 1em;
 }
 #user-detail-name {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  overflow: hidden;
   font-size: 6.5em;
-  border-right: 0.15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
   animation: typing 3.5s steps(18, end), blink-caret 0.75s step-end infinite;
 }
