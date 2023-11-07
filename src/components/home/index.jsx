@@ -4,7 +4,7 @@ import "./index.scss";
 const Home = () => {
   return (
     <div id="home">
-      <h1 id="user-detail-name">{`> HIMANSHU SHUKLA`}</h1>
+      <h1 id="user-detail-name">{`>HIMANSHU SHUKLA`}</h1>
     </div>
   );
 };

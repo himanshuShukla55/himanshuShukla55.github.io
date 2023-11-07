@@ -23,8 +23,10 @@
   margin: 1em;
 }
 #user-detail-name {
+  margin-top: 0;
   overflow: hidden;
-  font-size: 6.5em;
+  letter-spacing: 0.15em;
+  font-size: 7em;
   border-right: 0.15em solid orange;
   white-space: nowrap;
   animation: typing 3.5s steps(18, end), blink-caret 0.75s step-end infinite;
