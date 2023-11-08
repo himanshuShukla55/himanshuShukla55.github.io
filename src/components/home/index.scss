@@ -5,29 +5,87 @@
     width: 0;
   }
   to {
-    width: 100%;
-  }
-}
-
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: orange;
+    width: 80%;
   }
 }
 
 #home {
   margin: 1em;
+  background-color: black;
+  border-radius: 1em;
+  background-color: #d7d4d6;
+  padding: 0 0.5em;
+  padding-bottom: 0.5em;
 }
-#user-detail-name {
-  margin-top: 0;
+#terminal-header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 38%;
+
+  span {
+    display: flex;
+    svg {
+      margin-top: 0.8em;
+    }
+  }
+}
+#buttons {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  button {
+    border-radius: 50%;
+    border: none;
+    height: 1em;
+  }
+}
+#red {
+  background-color: red;
+}
+#yellow {
+  background-color: #fcba01;
+}
+#green {
+  background-color: #01d642;
+}
+
+#user-detail-intro {
+  background-color: $black;
+  color: $white;
+  padding: 1em;
+  height: 70vh;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+
+  h1 {
+    width: 0;
+    font-size: 7em;
+    margin-top: 1.25em;
+    margin-bottom: 0.25em;
+    overflow: hidden;
+    letter-spacing: 0.15em;
+    white-space: nowrap;
+    animation: typing 2.5s steps(13, end) forwards;
+  }
+
+  p {
+    width: 0;
+    font-size: 2em;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+  }
+}
+#welcome-msg {
   overflow: hidden;
-  letter-spacing: 0.15em;
-  font-size: 7em;
-  border-right: 0.15em solid orange;
+  letter-spacing: 0.2em;
   white-space: nowrap;
-  animation: typing 3.5s steps(18, end), blink-caret 0.75s step-end infinite;
+  animation: typing 5s steps(30, end) forwards;
+  animation-delay: 2.5s;
+}
+#intro {
+  overflow: hidden;
+  letter-spacing: 0.2em;
+  white-space: nowrap;
+  animation: typing 5s steps(30, end) forwards;
+  animation-delay: 6s;
 }
