@@ -19,9 +19,18 @@ const Home = () => {
         </span>
       </div>
       <div id="user-detail-intro">
-        <h1 className="typing">{`>Hello World!`}</h1>
-        <p id="welcome-msg">{`>Welcome to my Portfolio.`}</p>
-        <p id="intro">{`>I'm a Full Stack Developer!`}</p>
+        <h1 className="typing">
+          {`>`}
+          <span>Hello World!</span>
+        </h1>
+        <p id="welcome-msg">
+          {`>Welcome to my`} <span>Portfolio</span>.
+        </p>
+        <p id="user-detail-name">
+          {`>I'm `}
+          <span>Himanshu Shukla</span>
+          {`, a Full Stack Developer!`}
+        </p>
       </div>
     </div>
   );

@@ -5,13 +5,12 @@
     width: 0;
   }
   to {
-    width: 80%;
+    width: 90%;
   }
 }
 
 #home {
   margin: 1em;
-  background-color: black;
   border-radius: 1em;
   background-color: #d7d4d6;
   padding: 0 0.5em;
@@ -50,7 +49,7 @@
 }
 
 #user-detail-intro {
-  background-color: $black;
+  background-color: #5b5c7a;
   color: $white;
   padding: 1em;
   height: 70vh;
@@ -63,9 +62,13 @@
     margin-top: 1.25em;
     margin-bottom: 0.25em;
     overflow: hidden;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.25em;
     white-space: nowrap;
-    animation: typing 2.5s steps(13, end) forwards;
+    animation: typing 3s steps(13, end) forwards;
+
+    span {
+      color: $yellow;
+    }
   }
 
   p {
@@ -80,12 +83,20 @@
   letter-spacing: 0.2em;
   white-space: nowrap;
   animation: typing 5s steps(30, end) forwards;
-  animation-delay: 2.5s;
+  animation-delay: 2.8s;
+
+  span {
+    color: $blue;
+  }
 }
-#intro {
+#user-detail-name {
   overflow: hidden;
   letter-spacing: 0.2em;
   white-space: nowrap;
-  animation: typing 5s steps(30, end) forwards;
+  animation: typing 5s steps(45, end) forwards;
   animation-delay: 6s;
+
+  span {
+    color: $purple;
+  }
 }
