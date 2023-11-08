@@ -1,5 +1,63 @@
+@import "../../variables";
+
 #contact {
-  margin: 1em;
-  height: 400px;
-  border: 1px solid grey;
+  margin: 0.5em;
+  h1 {
+    text-align: center;
+    font-size: 4em;
+    color: $purple;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    svg {
+      width: 6em;
+      height: 6em;
+      margin-top: 0;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+#contact-github,
+#contact-linkedin,
+#contact-phone,
+#contact-email {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+
+  &:hover {
+    .tooltip {
+      display: inline;
+    }
+  }
+}
+.tooltip {
+  position: absolute;
+  display: none;
+  top: -2em;
+  left: 1.1em;
+  padding: 0.2em;
+  background-color: $yellow;
+  opacity: 0.5;
+  color: white;
+  border-radius: 10%;
+
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: $yellow transparent transparent transparent;
+  }
 }
