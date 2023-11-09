@@ -3,8 +3,7 @@
 #about {
   margin: 1em;
   width: 60%;
-  padding-top: 17vh;
-  padding-bottom: 17vh;
+  padding: 25.5vh 0;
   margin-left: 18vw;
   margin-bottom: 7vh;
   div {
@@ -16,11 +15,13 @@
     }
     p {
       margin-top: 0.25em;
-      font-size: 1.25em;
+      font-size: 1.2em;
       letter-spacing: 0.1em;
     }
   }
   img {
+    width: 25vw;
+    height: 45vh;
     border-radius: 50%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     float: left;
