@@ -1,5 +1,64 @@
+@import "../../variables";
 #skills {
-  height: 400px;
-  border: 1px solid grey;
+  h1 {
+    color: $purple;
+    text-align: center;
+    font-size: 4em;
+  }
+  margin-bottom: 8em;
+}
+#skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;
   margin: 1em;
+}
+.skills-card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+  padding: 1em;
+  border-radius: 0.5em;
+  transition: transform 500ms ease;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+.skills-card-image {
+  height: 7em;
+  width: 7em;
+}
+.skills-card-name {
+  color: $terminal;
+}
+.html {
+  color: $html;
+}
+.css {
+  color: $css;
+}
+.javascript {
+  color: $js;
+}
+.react {
+  color: $react;
+}
+.redux {
+  color: $redux;
+}
+.jira {
+  color: $jira;
+}
+.firebase {
+  color: $firebase;
+}
+.mongodb {
+  color: $mongodb;
+}
+.node {
+  color: $node;
+}
+.sass {
+  color: $sass;
 }
