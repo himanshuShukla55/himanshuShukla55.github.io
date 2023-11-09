@@ -15,30 +15,27 @@
   border: none;
   border-radius: 1em;
   margin: 1.5em;
-  margin-bottom: 2dvi;
+  display: flex;
+  gap: 2em;
   padding: 1em;
-  position: relative;
+
   img {
-    position: absolute;
-    width: 50vw;
-    height: 58vh;
     border: none;
     border-radius: 1em;
-    transition: width 1s;
+    width: 50%;
+    transition: transform 2s ease;
+    transform-origin: left;
+
     &:hover {
-      cursor: pointer;
-      width: 91.2vw;
+      transform: scaleX(2);
     }
   }
-}
-.project-card > div {
-  margin-left: 55vw;
 }
 .buttons-container {
   display: flex;
   justify-content: space-between;
   margin-top: 1em;
-
+  padding: 0.5em;
   button {
     font-size: 1.5em;
     padding: 0.5em;
