@@ -1,14 +1,11 @@
 import React from "react";
 import { BsGithub, BsLinkedin, BsTelephone } from "react-icons/bs";
 import { TfiEmail } from "react-icons/tfi";
+import { openLinkInNewTab as handleContact } from "../../utils";
 
 import "./index.scss";
 
 const Contact = () => {
-  const handleContact = (url) => {
-    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
-    if (newWindow) newWindow.opener = null;
-  };
   return (
     <div id="contact">
       <h1>Contact Me</h1>

@@ -1,5 +1,98 @@
+@import "../../variables";
+
 #projects {
-  height: 400px;
-  border: 1px solid grey;
   margin: 1em;
+}
+#projects > h1 {
+  color: $purple;
+  font-size: 4em;
+  text-align: center;
+}
+
+.project-card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: $terminal;
+  border: none;
+  border-radius: 1em;
+  margin: 1.5em;
+  margin-bottom: 2dvi;
+  padding: 1em;
+  position: relative;
+  img {
+    position: absolute;
+    width: 50vw;
+    height: 58vh;
+    border: none;
+    border-radius: 1em;
+    transition: width 1s;
+    &:hover {
+      cursor: pointer;
+      width: 91.2vw;
+    }
+  }
+}
+.project-card > div {
+  margin-left: 55vw;
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+
+  button {
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+    color: $white;
+    transition: transform 500ms;
+    cursor: pointer;
+    &:hover {
+      transform: translateY(-0.25em);
+    }
+  }
+}
+.project-github-link {
+  background-color: $black;
+}
+.project-deployed-link {
+  background-color: $react;
+}
+.project-title {
+  font-size: 3em;
+  color: $blue;
+  margin-bottom: 0;
+}
+.project-description {
+  margin-top: 0.5em;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  color: $white;
+}
+.project-tech-stack {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+
+  span {
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    color: $white;
+  }
+}
+.HTML {
+  background-color: $html;
+}
+.CSS {
+  background-color: $css;
+}
+.Javascript {
+  background-color: $js;
+}
+.React {
+  background-color: $react;
+}
+.Redux {
+  background-color: $redux;
 }
