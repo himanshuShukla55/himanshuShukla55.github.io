@@ -2,11 +2,14 @@
 
 #projects {
   margin: 1em;
+  margin-top: 10vh;
 }
 #projects > h1 {
   color: $purple;
   font-size: 4em;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 10vh;
 }
 
 .project-card {

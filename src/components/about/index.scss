@@ -2,11 +2,12 @@
 
 #about {
   margin: 1em;
-  width: 60%;
-  padding: 25.5vh 0;
-  margin-left: 18vw;
-  margin-bottom: 7vh;
+  margin-top: 10vh;
+  padding: 26vh 0;
+  display: flex;
+  justify-content: center;
   div {
+    width: 35%;
     h1 {
       font-size: 4em;
       margin-top: 0;
@@ -24,7 +25,6 @@
     height: 45vh;
     border-radius: 50%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    float: left;
     shape-outside: circle();
     margin-right: 2em;
   }
