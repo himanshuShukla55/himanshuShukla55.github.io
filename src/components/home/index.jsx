@@ -20,8 +20,7 @@ const Home = () => {
       </div>
       <div id="terminal-body">
         <h1 className="typing">
-          {`>`}
-          <span>Hello World!</span>
+          <span>{`>Hello World!`}</span>
         </h1>
         <p id="welcome-msg">
           {`>Welcome to my`} <span>Portfolio</span>.
