@@ -3,9 +3,10 @@
 #about {
   margin: 1em;
   margin-top: 10vh;
-  padding: 26vh 0;
+  padding: 20vh 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   div {
     width: 35%;
     h1 {
@@ -21,8 +22,6 @@
     }
   }
   img {
-    width: 25vw;
-    height: 45vh;
     border-radius: 50%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     shape-outside: circle();

@@ -18,7 +18,7 @@ const Home = () => {
           <h3>_Himanshu's termial</h3>
         </span>
       </div>
-      <div id="user-detail-intro">
+      <div id="terminal-body">
         <h1 className="typing">
           {`>`}
           <span>Hello World!</span>

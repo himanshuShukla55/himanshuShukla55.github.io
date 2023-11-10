@@ -14,12 +14,15 @@ const Statistics = () => {
           alt="GitHub Streak"
         />
 
-        <picture id="github-stats-card">
+        <picture>
           <source
             srcSet="https://github-readme-stats.vercel.app/api?username=himanshuShukla55&show_icons=true"
             media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
           />
-          <img src="https://github-readme-stats.vercel.app/api?username=himanshuShukla55&show_icons=true" />
+          <img
+            id="github-stats-card"
+            src="https://github-readme-stats.vercel.app/api?username=himanshuShukla55&show_icons=true"
+          />
         </picture>
         <img
           id="github-top-langs"

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div id="about" className="about section">
       <img className="home-img" src={require("./myPic.png")} alt="himanshu" />
-      <div>
+      <div id="user-detail-intro">
         <h1>About Me:</h1>
         <p>
           I am a skilled and passionate{" "}
