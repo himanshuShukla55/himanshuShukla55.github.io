@@ -55,11 +55,13 @@
   height: 70vh;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   h1 {
     width: 0;
     font-size: 7em;
-    margin-top: 1.25em;
     margin-bottom: 0.25em;
     overflow: hidden;
     letter-spacing: 0.25em;
