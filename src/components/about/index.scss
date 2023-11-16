@@ -20,6 +20,21 @@
       font-size: 1.2em;
       letter-spacing: 0.1em;
     }
+    button {
+      margin-left: 11vw;
+      padding: 1vw;
+      font-size: 2em;
+      color: white;
+      background-color: $purple;
+      border: none;
+      border-radius: 1vw;
+      cursor: pointer;
+      transition: transform 500ms ease;
+
+      &:hover {
+        transform: translateY(-1vh);
+      }
+    }
   }
   img {
     border-radius: 50%;

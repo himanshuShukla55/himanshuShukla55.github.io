@@ -22,6 +22,7 @@ const Statistics = () => {
           <img
             id="github-stats-card"
             src="https://github-readme-stats.vercel.app/api?username=himanshuShukla55&show_icons=true"
+            alt="stats-card"
           />
         </picture>
         <img
@@ -29,6 +30,7 @@ const Statistics = () => {
           height="195"
           align="center"
           width="450"
+          alt="top-languages"
           src="https://github-readme-stats.vercel.app/api/top-langs?username=himanshuShukla55&layout=compact&langs_count=8&card_width=320"
         />
       </div>

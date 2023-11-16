@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import Resume from "../../assets/Resume.pdf";
 
 import "./index.scss";
 
@@ -20,6 +21,16 @@ const Navbar = () => {
       </Link>
       <Link smooth to="/#projects" className="nav-link projects">
         Projects
+      </Link>
+      <Link
+        id="resume-button-1"
+        className="nav-link"
+        to={Resume}
+        download="Resume.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Resume
       </Link>
     </nav>
   );

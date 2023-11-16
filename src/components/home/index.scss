@@ -61,12 +61,13 @@
 
   h1 {
     width: 0;
-    font-size: 7em;
+    font-size: 7.5vw;
+    letter-spacing: 2vw;
     margin-bottom: 0.15em;
     overflow: hidden;
-    letter-spacing: 0.25em;
     white-space: nowrap;
     animation: typing 3s steps(13, end) forwards;
+    text-align: left;
 
     span {
       color: $yellow;
@@ -75,8 +76,8 @@
 
   p {
     width: 0;
-    font-size: 2em;
-    margin-bottom: 0.15em;
+    font-size: 2vw;
+    margin-bottom: 1vw;
     margin-top: 0.15em;
   }
 }

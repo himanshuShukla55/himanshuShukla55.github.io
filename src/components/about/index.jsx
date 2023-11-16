@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Resume from "../../assets/Resume.pdf";
+
 import "./index.scss";
 
 const About = () => {
@@ -23,6 +26,16 @@ const About = () => {
           <span className="yellow">cutting-edge websites and applications</span>
           .
         </p>
+        <Link
+          id="resume-button-2"
+          className="nav-link"
+          to={Resume}
+          download="Resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>My Resume</button>
+        </Link>
       </div>
     </div>
   );
