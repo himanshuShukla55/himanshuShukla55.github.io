@@ -24,7 +24,7 @@ const Navbar = () => {
       </Link>
       <Link
         id="resume-button-1"
-        className="nav-link"
+        className="nav-link resume"
         to={Resume}
         download="Resume.pdf"
         target="_blank"
