@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   img {
-    border: 1px solid red;
     width: 30vw;
   }
 }
@@ -22,8 +21,8 @@ article {
   background-color: $terminal;
   color: white;
   font-size: 1em;
-  margin: 2.5vh;
-  width: 90vw;
+  margin: 1em auto;
+  width: 70vw;
 }
 
 h1 {
@@ -40,5 +39,11 @@ h1 {
     img {
       width: 70vw;
     }
+  }
+}
+@media screen and not (min-width: 501px) {
+  h1 {
+    font-size: 2rem;
+    margin-top: 1em;
   }
 }

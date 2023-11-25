@@ -1,8 +1,8 @@
 @import "../../variables";
 
 #projects {
-  border: 1px solid $white;
   margin: 0;
+  border: 1px solid $white;
 }
 #projects > h1 {
   color: $purple;
@@ -23,7 +23,6 @@
   padding: 1em;
 
   img {
-    border: none;
     border-radius: 1em;
     width: 50%;
     transition: transform 2s ease;
@@ -122,9 +121,15 @@
 @media screen and not (min-width: 501px) {
   #projects > h1 {
     font-size: 2rem;
+    margin-top: 2.5em;
+    margin-bottom: 0;
+  }
+  .project-card {
+    gap: 0;
   }
   .project-title {
     font-size: 1.5rem;
+    margin-top: 1em;
   }
   .project-description {
     font-size: 0.75rem;

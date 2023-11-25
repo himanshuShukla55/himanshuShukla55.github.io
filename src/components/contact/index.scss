@@ -1,6 +1,7 @@
 @import "../../variables";
 
 #contact {
+  border: 1px solid red;
   margin: 0.5em;
   margin-top: 10vh;
   h1 {
@@ -60,5 +61,13 @@
     border-width: 5px;
     border-style: solid;
     border-color: $yellow transparent transparent transparent;
+  }
+}
+
+@media screen and not (min-width: 501px) {
+  #contact {
+    h1 {
+      font-size: 2rem;
+    }
   }
 }
