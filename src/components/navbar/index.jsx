@@ -1,6 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import Resume from "../../assets/Resume.pdf";
+import Resume from "../../assets/HImanshuShuklaResume.pdf";
 
 import "./index.scss";
 import { downloadResume } from "../../utils";

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Resume from "../../assets/Resume.pdf";
+import Resume from "../../assets/HImanshuShuklaResume.pdf";
 
 import "./index.scss";
 import { downloadResume } from "../../utils";

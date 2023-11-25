@@ -4,7 +4,7 @@ export const openLinkInNewTab = (url) => {
 };
 export const downloadResume = () => {
   window.open(
-    "https://drive.google.com/file/d/1dOS5zZS1u3-qwoBuQe5-q2VNAKJXVjzA/view?usp=drive_link",
+    "https://drive.google.com/file/d/1YLEbzo1KAVXPXTlWV2aLhYweS9gf-Xq3/view?usp=sharing",
     "_blank"
   );
 };
