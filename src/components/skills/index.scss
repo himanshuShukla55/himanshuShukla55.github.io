@@ -1,14 +1,16 @@
 @import "../../variables";
 #skills {
+  padding: 2em;
   h1 {
     color: $purple;
     text-align: center;
-    font-size: 4em;
+    font-size: 4rem;
+    margin-top: 1.25em;
   }
 }
 #skills-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 2em;
   margin: 1em;
 }
@@ -25,8 +27,8 @@
   }
 }
 .skills-card-img {
-  height: 7em;
-  width: 7em;
+  height: 4em;
+  width: 4em;
 }
 .skills-card-name {
   color: $terminal;
@@ -60,4 +62,14 @@
 }
 .sass {
   color: $sass;
+}
+@media screen and (min-width: 761px) and (max-width: 1000px) {
+  #skills-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 760px) {
+  #skills-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

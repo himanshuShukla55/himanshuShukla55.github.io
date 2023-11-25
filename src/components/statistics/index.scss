@@ -3,6 +3,12 @@
   padding: 1em;
   display: flex;
   gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+  img {
+    border: 1px solid red;
+    width: 30vw;
+  }
 }
 
 article {
@@ -17,6 +23,7 @@ article {
   color: white;
   font-size: 1em;
   margin: 2.5vh;
+  width: 90vw;
 }
 
 h1 {
@@ -24,4 +31,14 @@ h1 {
   font-size: 4em;
   text-align: center;
   margin-top: 10vh;
+}
+
+@media screen and not (min-width: 1000px) {
+  #statistics {
+    flex-direction: column;
+
+    img {
+      width: 70vw;
+    }
+  }
 }
