@@ -27,7 +27,7 @@ const Navbar = () => {
         id="resume-button-1"
         className="nav-link resume"
         to={Resume}
-        download="Resume.pdf"
+        download="HimanshuShuklaResume.pdf"
         target="_blank"
         rel="noreferrer"
         onClick={downloadResume}

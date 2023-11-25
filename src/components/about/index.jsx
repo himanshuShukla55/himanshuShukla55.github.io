@@ -31,7 +31,7 @@ const About = () => {
         <Link
           id="resume-button-2"
           to={Resume}
-          download="Resume.pdf"
+          download="HimanshuShklaResume.pdf"
           target="_blank"
           rel="noreferrer"
           onClick={downloadResume}
