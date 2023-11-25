@@ -57,3 +57,18 @@
     }
   }
 }
+@media screen and not(min-width : 500px) {
+  #about {
+    img {
+      width: 50%;
+    }
+    div {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}

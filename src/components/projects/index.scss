@@ -60,13 +60,13 @@
   background-color: $react;
 }
 .project-title {
-  font-size: 3em;
+  font-size: 3rem;
   color: $blue;
   margin-bottom: 0;
 }
 .project-description {
   margin-top: 0.5em;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   letter-spacing: 0.1em;
   color: $white;
 }
@@ -116,5 +116,20 @@
   }
   .project-tech-stack {
     justify-content: center;
+  }
+}
+
+@media screen and not (min-width: 501px) {
+  #projects > h1 {
+    font-size: 2rem;
+  }
+  .project-title {
+    font-size: 1.5rem;
+  }
+  .project-description {
+    font-size: 0.75rem;
+  }
+  .project-tech-stack {
+    gap: 0.25em;
   }
 }
