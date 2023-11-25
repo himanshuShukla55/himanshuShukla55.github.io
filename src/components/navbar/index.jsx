@@ -3,6 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import Resume from "../../assets/Resume.pdf";
 
 import "./index.scss";
+import { downloadResume } from "../../utils";
 
 const Navbar = () => {
   return (
@@ -29,6 +30,7 @@ const Navbar = () => {
         download="Resume.pdf"
         target="_blank"
         rel="noreferrer"
+        onClick={downloadResume}
       >
         Resume
       </Link>
