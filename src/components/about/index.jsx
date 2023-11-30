@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Resume from "../../assets/HImanshuShuklaResume.pdf";
+import Resume from "../../assets/Himanshu-Shukla-resume.pdf";
 
 import "./index.scss";
 import { downloadResume } from "../../utils";
@@ -31,7 +31,7 @@ const About = () => {
         <Link
           id="resume-button-2"
           to={Resume}
-          download="HimanshuShklaResume.pdf"
+          download="Himanshu-Shkla-resume.pdf"
           target="_blank"
           rel="noreferrer"
           onClick={downloadResume}

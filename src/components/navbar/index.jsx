@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import Resume from "../../assets/HImanshuShuklaResume.pdf";
+import Resume from "../../assets/Himanshu-Shukla-resume.pdf";
 import { LuMenu, LuMenuSquare } from "react-icons/lu";
 
 import "./index.scss";
@@ -61,7 +61,7 @@ const Navbar = () => {
           id="resume-button-1"
           className="nav-link resume"
           to={Resume}
-          download="HimanshuShuklaResume.pdf"
+          download="Himanshu-Shukla-resume.pdf"
           target="_blank"
           rel="noreferrer"
           onClick={downloadResume}
