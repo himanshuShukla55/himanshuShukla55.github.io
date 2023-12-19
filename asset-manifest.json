@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.f3f03782.css",
-    "main.js": "/static/js/main.9a7f0d26.js",
+    "main.js": "/static/js/main.5e21ac55.js",
     "static/media/specializedPreview.png": "/static/media/specializedPreview.8b64ea4c3c5c40097a66.png",
     "static/media/myntraPreview.png": "/static/media/myntraPreview.0dc084dfacc871608f9a.png",
+    "static/media/realEstatePreview.png": "/static/media/realEstatePreview.e228e7a96a0b8953c1a3.png",
     "static/media/Himanshu-Shukla-resume.pdf": "/static/media/Himanshu-Shukla-resume.ababcc0177c2eb97f2a3.pdf",
     "static/media/myPic.png": "/static/media/myPic.8351041677745f7f2442.png",
     "static/media/spendwisePreview.png": "/static/media/spendwisePreview.cb9b324a4c1c9af329fd.png",
     "static/media/todoappPreview.png": "/static/media/todoappPreview.32768c52ad531dd7375e.png",
     "index.html": "/index.html",
     "main.f3f03782.css.map": "/static/css/main.f3f03782.css.map",
-    "main.9a7f0d26.js.map": "/static/js/main.9a7f0d26.js.map"
+    "main.5e21ac55.js.map": "/static/js/main.5e21ac55.js.map"
   },
   "entrypoints": [
     "static/css/main.f3f03782.css",
-    "static/js/main.9a7f0d26.js"
+    "static/js/main.5e21ac55.js"
   ]
 }
