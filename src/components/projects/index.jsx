@@ -26,23 +26,13 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Todo App",
+      title: "Real Estate",
       description:
-        "A todo app to keep track of tasks. Users can create tasks and change their status from active to completed and vice-a-versa, by dragging and droppign between respecitve columns.",
-      stack: ["React", "Javascript", "CSS", "HTML"],
-      github: "https://github.com/himanshuShukla55/todowithdnd",
-      deployedAt: "https://delicate-paprenjak-4b17b1.netlify.app/",
-      image: "./images/todoappPreview.png",
-    },
-    {
-      id: 4,
-      title: "Spendwise Clone",
-      description:
-        "Clone of Spendwise to manage budgets. Users can login, they can create budgets, they can view status of budget. Users can withdraw amount from budget and keep track of their transaction history.",
-      stack: ["React", "Redux", "Javascript", "CSS", "HTML"],
-      github: "https://github.com/himanshuShukla55/spendwiseclone",
-      deployedAt: "https://tranquil-cassata-b9de0d.netlify.app",
-      image: "./images/spendwisePreview.png",
+        "RealEstate is a premier destination for discovering the perfect property to call home. Explore, filter, and find your dream home with RealEstate, where your search for the perfect property begins and ends.",
+      stack: ["React", "Redux", "Javascript", "HTML", "CSS"],
+      github: "https://github.com/himanshuShukla55/realestate",
+      deployedAt: "https://real-estate-b81c.onrender.com",
+      image: "./images/realEstatePreview.png",
     },
   ];
   return (
